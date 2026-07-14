@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="100%" height="100%">
+<defs><filter id="shadow"><feDropShadow dx="1" dy="2" stdDeviation="3" flood-color="#00000020"/></filter></defs>
+<rect width="1280" height="720" fill="#F8FAFC" data-svgc-id="bg" data-svgc-type="text-decoration"/>
+<text x="640" y="42" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="26" font-weight="bold" fill="#1E293B" data-svgc-id="title">世界格局对AI产业的深刻影响</text>
+<line x1="520" y1="56" x2="760" y2="56" stroke="#2563EB" stroke-width="3" stroke-linecap="round"/>
+<rect x="60" y="80" width="360" height="360" rx="10" fill="white" stroke="#2563EB" stroke-width="2" filter="url(#shadow)"/>
+<rect x="60" y="80" width="360" height="42" rx="10" fill="#2563EB"/>
+<rect x="60" y="112" width="360" height="10" fill="#2563EB"/>
+<text x="240" y="108" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="15" font-weight="bold" fill="white">技术地缘政治化</text>
+<circle cx="80" cy="154" r="4" fill="#2563EB" opacity="0.7"/>
+<text x="94" y="159" font-family="Arial,Helvetica,sans-serif" font-size="13" fill="#334155">美国GPU出口禁令 (A100/H100)</text>
+<circle cx="80" cy="196" r="4" fill="#2563EB" opacity="0.7"/>
+<text x="94" y="201" font-family="Arial,Helvetica,sans-serif" font-size="13" fill="#334155">限制中美AI人才交流</text>
+<circle cx="80" cy="238" r="4" fill="#2563EB" opacity="0.7"/>
+<text x="94" y="243" font-family="Arial,Helvetica,sans-serif" font-size="13" fill="#334155">技术霸权主义 → 破坏全球协同</text>
+<circle cx="80" cy="280" r="4" fill="#2563EB" opacity="0.7"/>
+<text x="94" y="285" font-family="Arial,Helvetica,sans-serif" font-size="13" fill="#334155">倒逼我国自主创新转型</text>
+<circle cx="80" cy="322" r="4" fill="#2563EB" opacity="0.7"/>
+<text x="94" y="327" font-family="Arial,Helvetica,sans-serif" font-size="13" fill="#334155">→ 芯片、框架自主替代加速</text>
+<rect x="460" y="80" width="360" height="360" rx="10" fill="white" stroke="#7C3AED" stroke-width="2" filter="url(#shadow)"/>
+<rect x="460" y="80" width="360" height="42" rx="10" fill="#7C3AED"/>
+<rect x="460" y="112" width="360" height="10" fill="#7C3AED"/>
+<text x="640" y="108" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="15" font-weight="bold" fill="white">标准与规制之争</text>
+<circle cx="480" cy="154" r="4" fill="#7C3AED" opacity="0.7"/>
+<text x="494" y="159" font-family="Arial,Helvetica,sans-serif" font-size="13" fill="#334155">全球AI治理规则尚未统一</text>
+<circle cx="480" cy="196" r="4" fill="#7C3AED" opacity="0.7"/>
+<text x="494" y="201" font-family="Arial,Helvetica,sans-serif" font-size="13" fill="#334155">欧盟AI法案: 风险分级合规</text>
+<circle cx="480" cy="238" r="4" fill="#7C3AED" opacity="0.7"/>
+<text x="494" y="243" font-family="Arial,Helvetica,sans-serif" font-size="13" fill="#334155">西方主导安全/伦理标准</text>
+<circle cx="480" cy="280" r="4" fill="#7C3AED" opacity="0.7"/>
+<text x="494" y="285" font-family="Arial,Helvetica,sans-serif" font-size="13" fill="#334155">我国: 全球AI治理倡议</text>
+<circle cx="480" cy="322" r="4" fill="#7C3AED" opacity="0.7"/>
+<text x="494" y="327" font-family="Arial,Helvetica,sans-serif" font-size="13" fill="#334155">→ 多边主义、互惠共治</text>
+<rect x="860" y="80" width="360" height="360" rx="10" fill="white" stroke="#059669" stroke-width="2" filter="url(#shadow)"/>
+<rect x="860" y="80" width="360" height="42" rx="10" fill="#059669"/>
+<rect x="860" y="112" width="360" height="10" fill="#059669"/>
+<text x="1040" y="108" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="15" font-weight="bold" fill="white">产业链区域化演变</text>
+<circle cx="880" cy="154" r="4" fill="#059669" opacity="0.7"/>
+<text x="894" y="159" font-family="Arial,Helvetica,sans-serif" font-size="13" fill="#334155">芯片四方联盟 (美日韩台)</text>
+<circle cx="880" cy="196" r="4" fill="#059669" opacity="0.7"/>
+<text x="894" y="201" font-family="Arial,Helvetica,sans-serif" font-size="13" fill="#334155">欧盟数字主权战略</text>
+<circle cx="880" cy="238" r="4" fill="#059669" opacity="0.7"/>
+<text x="894" y="243" font-family="Arial,Helvetica,sans-serif" font-size="13" fill="#334155">全球产业链 → 区域化阵营化</text>
+<circle cx="880" cy="280" r="4" fill="#059669" opacity="0.7"/>
+<text x="894" y="285" font-family="Arial,Helvetica,sans-serif" font-size="13" fill="#334155">我国: 本土化重构</text>
+<circle cx="880" cy="322" r="4" fill="#059669" opacity="0.7"/>
+<text x="894" y="327" font-family="Arial,Helvetica,sans-serif" font-size="13" fill="#334155">→ 自主可控 + 高水平开放</text>
+<rect x="60" y="480" width="1160" height="55" rx="10" fill="#F1F5F9" stroke="#CBD5E1" stroke-width="1"/>
+<text x="640" y="513" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="14" font-weight="bold" fill="#475569">外部压力 × 内部应对 → 倒逼自主创新 · 构建自主生态 · 提升国际话语权</text>
+<text x="1250" y="704" text-anchor="end" font-family="Arial,Helvetica,sans-serif" font-size="10" fill="#94A3B8" data-svgc-id="footer" data-svgc-type="text-decoration">svg-create</text>
+</svg>

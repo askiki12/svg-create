@@ -1,0 +1,23 @@
+/* Dark Tech Palette — Developer/Night Theme */
+:root {
+  --color-primary: #38BDF8;
+  --color-secondary: #A78BFA;
+  --color-accent: #34D399;
+  --color-bg: #0F172A;
+  --color-text: #E2E8F0;
+  --color-text-secondary: #94A3B8;
+  --color-grid: #334155;
+  --color-success: #4ADE80;
+  --color-warning: #FBBF24;
+  --color-danger: #F87171;
+  --color-info: #22D3EE;
+}
+
+.chart-c1 { fill: #38BDF8; }
+.chart-c2 { fill: #FBBF24; }
+.chart-c3 { fill: #34D399; }
+.chart-c4 { fill: #F87171; }
+.chart-c5 { fill: #A78BFA; }
+.chart-c6 { fill: #FB923C; }
+.chart-c7 { fill: #22D3EE; }
+.chart-c8 { fill: #F472B6; }

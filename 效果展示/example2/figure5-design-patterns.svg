@@ -1,0 +1,80 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="100%" height="100%">
+<defs><filter id="sh"><feDropShadow dx="1" dy="2" stdDeviation="3" flood-color="#00000020"/></filter></defs>
+<rect width="1280" height="720" fill="#F8FAFC" data-svgc-id="bg" data-svgc-type="text-decoration"/>
+<text x="640" y="40" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="24" font-weight="bold" fill="#1E293B" data-svgc-id="title">设计模式总结与架构优势</text>
+<line x1="490" y1="54" x2="790" y2="54" stroke="#2563EB" stroke-width="3" stroke-linecap="round"/>
+<text x="80" y="100" font-family="Arial,Helvetica,sans-serif" font-size="16" font-weight="bold" fill="#1E293B">GoF 设计模式 (6种)</text>
+<rect x="80" y="130" width="560" height="40" rx="6" fill="white" stroke="#2E7D32" stroke-width="1"/>
+<rect x="80" y="130" width="4" height="40" rx="2" fill="#2E7D32"/>
+<text x="100" y="146" font-family="Arial,Helvetica,sans-serif" font-size="13" font-weight="bold" fill="#2E7D32">组合模式</text>
+<text x="200" y="146" font-family="Arial,Helvetica,sans-serif" font-size="11" fill="#475569">Node/FileNode/DirNode</text>
+<text x="200" y="162" font-family="Arial,Helvetica,sans-serif" font-size="10" fill="#64748B">统一对待文件和目录</text>
+<rect x="80" y="180" width="560" height="40" rx="6" fill="white" stroke="#1565C0" stroke-width="1"/>
+<rect x="80" y="180" width="4" height="40" rx="2" fill="#1565C0"/>
+<text x="100" y="196" font-family="Arial,Helvetica,sans-serif" font-size="13" font-weight="bold" fill="#1565C0">代理模式</text>
+<text x="200" y="196" font-family="Arial,Helvetica,sans-serif" font-size="11" fill="#475569">LinkNode</text>
+<text x="200" y="212" font-family="Arial,Helvetica,sans-serif" font-size="10" fill="#64748B">透明转发 isDir()/getSize()</text>
+<rect x="80" y="230" width="560" height="40" rx="6" fill="white" stroke="#7C3AED" stroke-width="1"/>
+<rect x="80" y="230" width="4" height="40" rx="2" fill="#7C3AED"/>
+<text x="100" y="246" font-family="Arial,Helvetica,sans-serif" font-size="13" font-weight="bold" fill="#7C3AED">命令模式</text>
+<text x="200" y="246" font-family="Arial,Helvetica,sans-serif" font-size="11" fill="#475569">CliParsers.Command</text>
+<text x="200" y="262" font-family="Arial,Helvetica,sans-serif" font-size="10" fill="#64748B">封装命令类型和参数</text>
+<rect x="80" y="280" width="560" height="40" rx="6" fill="white" stroke="#059669" stroke-width="1"/>
+<rect x="80" y="280" width="4" height="40" rx="2" fill="#059669"/>
+<text x="100" y="296" font-family="Arial,Helvetica,sans-serif" font-size="13" font-weight="bold" fill="#059669">外观模式</text>
+<text x="200" y="296" font-family="Arial,Helvetica,sans-serif" font-size="11" fill="#475569">MemFs 公共方法</text>
+<text x="200" y="312" font-family="Arial,Helvetica,sans-serif" font-size="10" fill="#64748B">7个简洁接口隐藏复杂逻辑</text>
+<rect x="80" y="330" width="560" height="40" rx="6" fill="white" stroke="#F59E0B" stroke-width="1"/>
+<rect x="80" y="330" width="4" height="40" rx="2" fill="#F59E0B"/>
+<text x="100" y="346" font-family="Arial,Helvetica,sans-serif" font-size="13" font-weight="bold" fill="#F59E0B">管道模式</text>
+<text x="200" y="346" font-family="Arial,Helvetica,sans-serif" font-size="11" fill="#475569">normalize()</text>
+<text x="200" y="362" font-family="Arial,Helvetica,sans-serif" font-size="10" fill="#64748B">切分→过滤→规范化→输出</text>
+<rect x="80" y="380" width="560" height="40" rx="6" fill="white" stroke="#EF4444" stroke-width="1"/>
+<rect x="80" y="380" width="4" height="40" rx="2" fill="#EF4444"/>
+<text x="100" y="396" font-family="Arial,Helvetica,sans-serif" font-size="13" font-weight="bold" fill="#EF4444">模板方法</text>
+<text x="200" y="396" font-family="Arial,Helvetica,sans-serif" font-size="11" fill="#475569">Node.getSize()/isDir()</text>
+<text x="200" y="412" font-family="Arial,Helvetica,sans-serif" font-size="10" fill="#64748B">基类定义接口，子类实现</text>
+<text x="680" y="100" font-family="Arial,Helvetica,sans-serif" font-size="16" font-weight="bold" fill="#1E293B">SOLID 原则</text>
+<rect x="680" y="130" width="540" height="50" rx="6" fill="white" stroke="#2563EB" stroke-width="1"/>
+<rect x="680" y="130" width="50" height="50" rx="6" fill="#2563EB"/>
+<rect x="720" y="130" width="10" height="50" fill="#2563EB"/>
+<text x="705" y="162" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="15" font-weight="bold" fill="white">SRP</text>
+<text x="740" y="150" font-family="Arial,Helvetica,sans-serif" font-size="12" font-weight="bold" fill="#1E293B">单一职责</text>
+<text x="740" y="168" font-family="Arial,Helvetica,sans-serif" font-size="11" fill="#475569">Main(I/O)、CliParsers(解析)、MemFs(逻辑)、Node(模型) 各司其职</text>
+<rect x="680" y="190" width="540" height="50" rx="6" fill="white" stroke="#2563EB" stroke-width="1"/>
+<rect x="680" y="190" width="50" height="50" rx="6" fill="#2563EB"/>
+<rect x="720" y="190" width="10" height="50" fill="#2563EB"/>
+<text x="705" y="222" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="15" font-weight="bold" fill="white">OCP</text>
+<text x="740" y="210" font-family="Arial,Helvetica,sans-serif" font-size="12" font-weight="bold" fill="#1E293B">开闭原则</text>
+<text x="740" y="228" font-family="Arial,Helvetica,sans-serif" font-size="11" fill="#475569">Node体系对扩展开放 (可新增HardLinkNode)，对修改关闭</text>
+<rect x="680" y="250" width="540" height="50" rx="6" fill="white" stroke="#2563EB" stroke-width="1"/>
+<rect x="680" y="250" width="50" height="50" rx="6" fill="#2563EB"/>
+<rect x="720" y="250" width="10" height="50" fill="#2563EB"/>
+<text x="705" y="282" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="15" font-weight="bold" fill="white">LSP</text>
+<text x="740" y="270" font-family="Arial,Helvetica,sans-serif" font-size="12" font-weight="bold" fill="#1E293B">里氏替换</text>
+<text x="740" y="288" font-family="Arial,Helvetica,sans-serif" font-size="11" fill="#475569">FileNode/DirNode/LinkNode 可完全替换 Node，行为一致</text>
+<rect x="680" y="310" width="540" height="50" rx="6" fill="white" stroke="#2563EB" stroke-width="1"/>
+<rect x="680" y="310" width="50" height="50" rx="6" fill="#2563EB"/>
+<rect x="720" y="310" width="10" height="50" fill="#2563EB"/>
+<text x="705" y="342" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="15" font-weight="bold" fill="white">ISP</text>
+<text x="740" y="330" font-family="Arial,Helvetica,sans-serif" font-size="12" font-weight="bold" fill="#1E293B">接口隔离</text>
+<text x="740" y="348" font-family="Arial,Helvetica,sans-serif" font-size="11" fill="#475569">Node仅暴露name/isDir/getSize三个最小接口</text>
+<rect x="680" y="370" width="540" height="50" rx="6" fill="white" stroke="#2563EB" stroke-width="1"/>
+<rect x="680" y="370" width="50" height="50" rx="6" fill="#2563EB"/>
+<rect x="720" y="370" width="10" height="50" fill="#2563EB"/>
+<text x="705" y="402" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="15" font-weight="bold" fill="white">DIP</text>
+<text x="740" y="390" font-family="Arial,Helvetica,sans-serif" font-size="12" font-weight="bold" fill="#1E293B">依赖倒置</text>
+<text x="740" y="408" font-family="Arial,Helvetica,sans-serif" font-size="11" fill="#475569">MemFs依赖Node抽象，Main依赖MemFs公共接口</text>
+<text x="80" y="460" font-family="Arial,Helvetica,sans-serif" font-size="16" font-weight="bold" fill="#1E293B">架构核心优势</text>
+<rect x="80" y="495" width="360" height="46" rx="8" fill="#F1F5F9" stroke="#E2E8F0" stroke-width="1"/>
+<text x="260" y="523" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="12" fill="#334155">🎯 组合+代理协同: getSize()多态分派，客户端无需instanceof</text>
+<rect x="460" y="495" width="360" height="46" rx="8" fill="#F1F5F9" stroke="#E2E8F0" stroke-width="1"/>
+<text x="640" y="523" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="12" fill="#334155">🔗 对象引用链接: TOUCH更新后所有链接自动感知，引用透明</text>
+<rect x="840" y="495" width="360" height="46" rx="8" fill="#F1F5F9" stroke="#E2E8F0" stroke-width="1"/>
+<text x="1020" y="523" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="12" fill="#334155">🛡️ 两层循环检测: resolve层 + computeSize/findDir层，独立互补</text>
+<rect x="80" y="555" width="360" height="46" rx="8" fill="#F1F5F9" stroke="#E2E8F0" stroke-width="1"/>
+<text x="260" y="583" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="12" fill="#334155">📊 TreeMap巧妙运用: 数据结构选择让LS天然有序</text>
+<rect x="460" y="555" width="360" height="46" rx="8" fill="#F1F5F9" stroke="#E2E8F0" stroke-width="1"/>
+<text x="640" y="583" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="12" fill="#334155">🔌 导航与操作分离: 7个命令方法只关心业务，导航逻辑复用</text>
+<text x="1250" y="704" text-anchor="end" font-family="Arial,Helvetica,sans-serif" font-size="10" fill="#94A3B8">svg-create</text>
+</svg>

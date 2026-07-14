@@ -1,0 +1,23 @@
+/* Warm Vibrant Palette — Marketing/Creative Theme */
+:root {
+  --color-primary: #F59E0B;
+  --color-secondary: #EF4444;
+  --color-accent: #10B981;
+  --color-bg: #FFFBEB;
+  --color-text: #451A03;
+  --color-text-secondary: #92400E;
+  --color-grid: #FDE68A;
+  --color-success: #059669;
+  --color-warning: #D97706;
+  --color-danger: #DC2626;
+  --color-info: #0891B2;
+}
+
+.chart-c1 { fill: #F59E0B; }
+.chart-c2 { fill: #EF4444; }
+.chart-c3 { fill: #10B981; }
+.chart-c4 { fill: #8B5CF6; }
+.chart-c5 { fill: #F97316; }
+.chart-c6 { fill: #06B6D4; }
+.chart-c7 { fill: #EC4899; }
+.chart-c8 { fill: #2563EB; }

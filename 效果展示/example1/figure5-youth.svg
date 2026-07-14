@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="100%" height="100%">
+<defs><filter id="shadow"><feDropShadow dx="1" dy="2" stdDeviation="3" flood-color="#00000020"/></filter></defs>
+<rect width="1280" height="720" fill="#F8FAFC" data-svgc-id="bg" data-svgc-type="text-decoration"/>
+<text x="640" y="42" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="26" font-weight="bold" fill="#1E293B" data-svgc-id="title">当代青年的责任与应对</text>
+<line x1="520" y1="56" x2="760" y2="56" stroke="#2563EB" stroke-width="3" stroke-linecap="round"/>
+<rect x="70" y="80" width="360" height="360" rx="10" fill="white" stroke="#2563EB" stroke-width="2" filter="url(#shadow)"/>
+<rect x="70" y="80" width="360" height="46" rx="10" fill="#2563EB"/>
+<rect x="70" y="116" width="360" height="10" fill="#2563EB"/>
+<text x="250" y="112" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="16" font-weight="bold" fill="white">🧠  强化专业素养</text>
+<circle cx="90" cy="158" r="4" fill="#2563EB" opacity="0.6"/>
+<text x="104" y="163" font-family="Arial,Helvetica,sans-serif" font-size="12" fill="#334155">扎根专业领域，保持定力</text>
+<circle cx="90" cy="202" r="4" fill="#2563EB" opacity="0.6"/>
+<text x="104" y="207" font-family="Arial,Helvetica,sans-serif" font-size="12" fill="#334155">钻研算法底层逻辑</text>
+<circle cx="90" cy="246" r="4" fill="#2563EB" opacity="0.6"/>
+<text x="104" y="251" font-family="Arial,Helvetica,sans-serif" font-size="12" fill="#334155">打破单一学科信息茧房</text>
+<circle cx="90" cy="290" r="4" fill="#2563EB" opacity="0.6"/>
+<text x="104" y="295" font-family="Arial,Helvetica,sans-serif" font-size="12" fill="#334155">培养跨学科复合思维</text>
+<circle cx="90" cy="334" r="4" fill="#2563EB" opacity="0.6"/>
+<text x="104" y="339" font-family="Arial,Helvetica,sans-serif" font-size="12" fill="#334155">练就解决核心技术难题的过硬本领</text>
+<rect x="460" y="80" width="360" height="360" rx="10" fill="white" stroke="#7C3AED" stroke-width="2" filter="url(#shadow)"/>
+<rect x="460" y="80" width="360" height="46" rx="10" fill="#7C3AED"/>
+<rect x="460" y="116" width="360" height="10" fill="#7C3AED"/>
+<text x="640" y="112" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="16" font-weight="bold" fill="white">💡  坚定创新信念</text>
+<circle cx="480" cy="158" r="4" fill="#7C3AED" opacity="0.6"/>
+<text x="494" y="163" font-family="Arial,Helvetica,sans-serif" font-size="12" fill="#334155">关键核心技术是要不来的</text>
+<circle cx="480" cy="202" r="4" fill="#7C3AED" opacity="0.6"/>
+<text x="494" y="207" font-family="Arial,Helvetica,sans-serif" font-size="12" fill="#334155">将个人所长与国家需求结合</text>
+<circle cx="480" cy="246" r="4" fill="#7C3AED" opacity="0.6"/>
+<text x="494" y="251" font-family="Arial,Helvetica,sans-serif" font-size="12" fill="#334155">耐得住基础研究的寂寞</text>
+<circle cx="480" cy="290" r="4" fill="#7C3AED" opacity="0.6"/>
+<text x="494" y="295" font-family="Arial,Helvetica,sans-serif" font-size="12" fill="#334155">向技术&quot;无人区&quot;探索</text>
+<circle cx="480" cy="334" r="4" fill="#7C3AED" opacity="0.6"/>
+<text x="494" y="339" font-family="Arial,Helvetica,sans-serif" font-size="12" fill="#334155">汇聚冲破技术封锁的强大力量</text>
+<rect x="850" y="80" width="360" height="360" rx="10" fill="white" stroke="#059669" stroke-width="2" filter="url(#shadow)"/>
+<rect x="850" y="80" width="360" height="46" rx="10" fill="#059669"/>
+<rect x="850" y="116" width="360" height="10" fill="#059669"/>
+<text x="1030" y="112" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="16" font-weight="bold" fill="white">🤖  提升AI素养</text>
+<circle cx="870" cy="158" r="4" fill="#059669" opacity="0.6"/>
+<text x="884" y="163" font-family="Arial,Helvetica,sans-serif" font-size="12" fill="#334155">AI是认知世界的利器</text>
+<circle cx="870" cy="202" r="4" fill="#059669" opacity="0.6"/>
+<text x="884" y="207" font-family="Arial,Helvetica,sans-serif" font-size="12" fill="#334155">人类智慧主导算法逻辑</text>
+<circle cx="870" cy="246" r="4" fill="#059669" opacity="0.6"/>
+<text x="884" y="251" font-family="Arial,Helvetica,sans-serif" font-size="12" fill="#334155">提升人机协同能力</text>
+<circle cx="870" cy="290" r="4" fill="#059669" opacity="0.6"/>
+<text x="884" y="295" font-family="Arial,Helvetica,sans-serif" font-size="12" fill="#334155">增强伦理判断和信息辨析</text>
+<circle cx="870" cy="334" r="4" fill="#059669" opacity="0.6"/>
+<text x="884" y="339" font-family="Arial,Helvetica,sans-serif" font-size="12" fill="#334155">让AI真正服务于人类发展</text>
+<rect x="60" y="480" width="1160" height="85" rx="10" fill="#1E293B"/>
+<text x="640" y="514" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="16" font-weight="bold" fill="white">结语</text>
+<text x="640" y="544" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="13" fill="#CBD5E1">不畏浮云遮望眼 · 坚定不移走自主创新之路 · 于变局中寻转机 · 于机遇中谋突破</text>
+<text x="1250" y="704" text-anchor="end" font-family="Arial,Helvetica,sans-serif" font-size="10" fill="#94A3B8" data-svgc-id="footer" data-svgc-type="text-decoration">svg-create</text>
+</svg>

@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 500" width="100%" height="100%">
+<defs><filter id="shadow"><feDropShadow dx="1" dy="2" stdDeviation="3" flood-color="#00000020"/></filter><marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0,1 L9,5 L0,9 Z" fill="#64748B"/></marker></defs>
+<rect width="1000" height="500" fill="#FCFCFC" data-svgc-id="bg" data-svgc-type="text-decoration"/>
+<text x="500" y="36" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="22" font-weight="bold" fill="#1E293B" data-svgc-id="title" data-svgc-type="text-title">SVG Create v2.0 — Engine Architecture</text>
+<g data-svgc-id="col-0" filter="url(#shadow)">
+<rect x="50" y="55" width="280" height="390" rx="10" fill="white" stroke="#E2E8F0" stroke-width="1"/>
+<rect x="50" y="55" width="280" height="42" rx="10" fill="#2563EB"/>
+<rect x="50" y="87" width="280" height="10" fill="#2563EB"/>
+<text x="190" y="83" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="14" font-weight="bold" fill="white">Claude — 创意层</text>
+<text x="70" y="127" font-family="Arial,Helvetica,sans-serif" font-size="13" fill="#1E293B">🧠  理解模糊需求</text>
+<text x="70" y="217" font-family="Arial,Helvetica,sans-serif" font-size="13" fill="#1E293B">🎨  选择图表类型和配色</text>
+<text x="70" y="307" font-family="Arial,Helvetica,sans-serif" font-size="13" fill="#1E293B">📋  输出结构化 IR (JSON)</text>
+<rect x="90" y="409" width="200" height="22" rx="11" fill="#2563EB" opacity="0.12"/>
+<text x="190" y="424" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="11" font-weight="bold" fill="#2563EB">IR (JSON) →</text>
+</g>
+<line x1="335" y1="250" x2="355" y2="250" stroke="#94A3B8" stroke-width="2" marker-end="url(#arr)"/>
+<g data-svgc-id="col-1" filter="url(#shadow)">
+<rect x="360" y="55" width="280" height="390" rx="10" fill="white" stroke="#E2E8F0" stroke-width="1"/>
+<rect x="360" y="55" width="280" height="42" rx="10" fill="#059669"/>
+<rect x="360" y="87" width="280" height="10" fill="#059669"/>
+<text x="500" y="83" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="14" font-weight="bold" fill="white">JS Engines — 执行层</text>
+<text x="380" y="127" font-family="Arial,Helvetica,sans-serif" font-size="13" fill="#1E293B">📐 layout-graph.js   坐标计算</text>
+<text x="380" y="217" font-family="Arial,Helvetica,sans-serif" font-size="13" fill="#1E293B">📊 layout-chart.js   比例尺+标记</text>
+<text x="380" y="307" font-family="Arial,Helvetica,sans-serif" font-size="13" fill="#1E293B">📄 serialize-svg.js   保证正确XML</text>
+<rect x="400" y="409" width="200" height="22" rx="11" fill="#059669" opacity="0.12"/>
+<text x="500" y="424" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="11" font-weight="bold" fill="#059669">确定性输出: 相同IR→相同SVG</text>
+</g>
+<line x1="645" y1="250" x2="665" y2="250" stroke="#94A3B8" stroke-width="2" marker-end="url(#arr)"/>
+<g data-svgc-id="col-2" filter="url(#shadow)">
+<rect x="670" y="55" width="280" height="390" rx="10" fill="white" stroke="#E2E8F0" stroke-width="1"/>
+<rect x="670" y="55" width="280" height="42" rx="10" fill="#F59E0B"/>
+<rect x="670" y="87" width="280" height="10" fill="#F59E0B"/>
+<text x="810" y="83" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="14" font-weight="bold" fill="white">validate-svg.js — 质量层</text>
+<text x="690" y="127" font-family="Arial,Helvetica,sans-serif" font-size="13" fill="#1E293B">🔍 XML声明 注释--  边界 重叠</text>
+<text x="690" y="217" font-family="Arial,Helvetica,sans-serif" font-size="13" fill="#1E293B">🔍 对比度   边缘接近  字号 追踪</text>
+<text x="690" y="307" font-family="Arial,Helvetica,sans-serif" font-size="13" fill="#1E293B">🔍 居中平衡  10项程序化检查</text>
+<rect x="710" y="409" width="200" height="22" rx="11" fill="#F59E0B" opacity="0.12"/>
+<text x="810" y="424" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="11" font-weight="bold" fill="#F59E0B">pass/fail → Fix Agent修复循环</text>
+</g>
+<text x="500" y="488" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="10" fill="#94A3B8">svg-create v2.0</text>
+</svg>

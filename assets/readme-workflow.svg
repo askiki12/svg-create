@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 400" width="100%" height="100%">
+<defs>
+<filter id="shadow"><feDropShadow dx="1" dy="2" stdDeviation="3" flood-color="#00000020"/></filter>
+<marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0,1 L9,5 L0,9 Z" fill="#9CA3AF"/></marker>
+<marker id="arrow-fb" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0,1 L9,5 L0,9 Z" fill="#2563EB"/></marker>
+<linearGradient id="bot-grad" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="#2563EB"/><stop offset="50%" stop-color="#10B981"/><stop offset="100%" stop-color="#F59E0B"/></linearGradient>
+</defs>
+<rect width="1100" height="400" fill="#FCFCFC" data-svgc-id="bg" data-svgc-type="text-decoration"/>
+<text x="550" y="28" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="20" font-weight="bold" fill="#1E293B" data-svgc-id="title" data-svgc-type="text-title">SVG Create — 6-Step Workflow</text>
+<g data-svgc-id="step-0" filter="url(#shadow)">
+<rect x="40" y="48" width="165" height="170" rx="10" fill="white" stroke="#E2E8F0" stroke-width="1" data-svgc-id="step-0-card" data-svgc-type="text-card"/>
+<rect x="40" y="48" width="165" height="42" rx="10" fill="#2563EB" data-svgc-id="step-0-header" data-svgc-type="text-decoration"/>
+<rect x="40" y="80" width="165" height="10" fill="#2563EB" data-svgc-id="step-0-header-bot" data-svgc-type="text-decoration"/>
+<text x="122" y="76" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="16" font-weight="bold" fill="white" data-svgc-id="step-0-num">0</text>
+<text x="122" y="118" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="17" font-weight="bold" fill="#1E293B" data-svgc-id="step-0-title">需求分析</text>
+<text x="122" y="146" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="13" fill="#475569" data-svgc-id="step-0-body">Requirements Agent</text>
+<text x="122" y="178" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="10" fill="#94A3B8" data-svgc-id="step-0-sub">6种模式识别</text>
+</g>
+<line x1="209" y1="133" x2="242" y2="133" stroke="#9CA3AF" stroke-width="2" marker-end="url(#arrow)" data-svgc-id="arrow-0" data-svgc-type="edge-path"/>
+<g data-svgc-id="step-1" filter="url(#shadow)">
+<rect x="246" y="48" width="151" height="170" rx="10" fill="white" stroke="#E2E8F0" stroke-width="1" data-svgc-id="step-1-card" data-svgc-type="text-card"/>
+<rect x="246" y="48" width="151" height="42" rx="10" fill="#8B5CF6" data-svgc-id="step-1-header" data-svgc-type="text-decoration"/>
+<rect x="246" y="80" width="151" height="10" fill="#8B5CF6" data-svgc-id="step-1-header-bot" data-svgc-type="text-decoration"/>
+<text x="321" y="76" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="16" font-weight="bold" fill="white" data-svgc-id="step-1-num">1</text>
+<text x="321" y="118" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="17" font-weight="bold" fill="#1E293B" data-svgc-id="step-1-title">分类路由</text>
+<text x="321" y="146" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="13" fill="#475569" data-svgc-id="step-1-body">Classifier Agent</text>
+<text x="321" y="178" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="10" fill="#94A3B8" data-svgc-id="step-1-sub">类型A-G × 复杂度L0-L5</text>
+</g>
+<line x1="401" y1="133" x2="434" y2="133" stroke="#9CA3AF" stroke-width="2" marker-end="url(#arrow)" data-svgc-id="arrow-1" data-svgc-type="edge-path"/>
+<g data-svgc-id="step-2-4" filter="url(#shadow)">
+<rect x="438" y="48" width="209" height="170" rx="10" fill="white" stroke="#E2E8F0" stroke-width="1" data-svgc-id="step-2-4-card" data-svgc-type="text-card"/>
+<rect x="438" y="48" width="209" height="42" rx="10" fill="#10B981" data-svgc-id="step-2-4-header" data-svgc-type="text-decoration"/>
+<rect x="438" y="80" width="209" height="10" fill="#10B981" data-svgc-id="step-2-4-header-bot" data-svgc-type="text-decoration"/>
+<text x="542" y="76" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="16" font-weight="bold" fill="white" data-svgc-id="step-2-4-num">2-4</text>
+<text x="542" y="118" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="17" font-weight="bold" fill="#1E293B" data-svgc-id="step-2-4-title">管道生成</text>
+<text x="542" y="146" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="13" fill="#475569" data-svgc-id="step-2-4-body">Parser→Layout→Renderer</text>
+<circle cx="467" cy="176" r="5" fill="#10B981" opacity="0.8"/>
+<text x="467" y="192" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="9" fill="#64748B">Graph</text>
+<circle cx="517" cy="176" r="5" fill="#F59E0B" opacity="0.8"/>
+<text x="517" y="192" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="9" fill="#64748B">Chart</text>
+<circle cx="567" cy="176" r="5" fill="#2563EB" opacity="0.8"/>
+<text x="567" y="192" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="9" fill="#64748B">Text</text>
+<circle cx="617" cy="176" r="5" fill="#EF4444" opacity="0.8"/>
+<text x="617" y="192" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="9" fill="#64748B">Timeline</text>
+<text x="542" y="263" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="10" fill="#94A3B8" data-svgc-id="step-2-4-sub">Graph · Chart · Text · Timeline</text>
+</g>
+<line x1="651" y1="133" x2="684" y2="133" stroke="#9CA3AF" stroke-width="2" marker-end="url(#arrow)" data-svgc-id="arrow-2" data-svgc-type="edge-path"/>
+<g data-svgc-id="step-5" filter="url(#shadow)">
+<rect x="688" y="48" width="173" height="170" rx="10" fill="white" stroke="#E2E8F0" stroke-width="1" data-svgc-id="step-5-card" data-svgc-type="text-card"/>
+<rect x="688" y="48" width="173" height="42" rx="10" fill="#F59E0B" data-svgc-id="step-5-header" data-svgc-type="text-decoration"/>
+<rect x="688" y="80" width="173" height="10" fill="#F59E0B" data-svgc-id="step-5-header-bot" data-svgc-type="text-decoration"/>
+<text x="774" y="76" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="16" font-weight="bold" fill="white" data-svgc-id="step-5-num">5</text>
+<text x="774" y="118" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="17" font-weight="bold" fill="#1E293B" data-svgc-id="step-5-title">质量审查</text>
+<text x="774" y="146" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="13" fill="#475569" data-svgc-id="step-5-body">Reviewer + Fix Agent</text>
+<text x="774" y="178" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="10" fill="#94A3B8" data-svgc-id="step-5-sub">10项检查 · 最大3轮修复</text>
+</g>
+<line x1="865" y1="133" x2="898" y2="133" stroke="#9CA3AF" stroke-width="2" marker-end="url(#arrow)" data-svgc-id="arrow-3" data-svgc-type="edge-path"/>
+<g data-svgc-id="step-6" filter="url(#shadow)">
+<rect x="902" y="48" width="158" height="170" rx="10" fill="white" stroke="#E2E8F0" stroke-width="1" data-svgc-id="step-6-card" data-svgc-type="text-card"/>
+<rect x="902" y="48" width="158" height="42" rx="10" fill="#10B981" data-svgc-id="step-6-header" data-svgc-type="text-decoration"/>
+<rect x="902" y="80" width="158" height="10" fill="#10B981" data-svgc-id="step-6-header-bot" data-svgc-type="text-decoration"/>
+<text x="981" y="76" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="16" font-weight="bold" fill="white" data-svgc-id="step-6-num">6</text>
+<text x="981" y="118" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="17" font-weight="bold" fill="#1E293B" data-svgc-id="step-6-title">交付</text>
+<text x="981" y="146" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="13" fill="#475569" data-svgc-id="step-6-body">SVG + HTML Preview</text>
+<text x="981" y="178" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="10" fill="#94A3B8" data-svgc-id="step-6-sub">质量报告</text>
+</g>
+<path d="M 981 44 L 981 36 L 122 36 L 122 44" fill="none" stroke="#2563EB" stroke-width="1.5" stroke-dasharray="5 3" marker-end="url(#arrow-fb)" data-svgc-id="feedback-loop" data-svgc-type="edge-path"/>
+<text x="550" y="44" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="11" fill="#2563EB" data-svgc-id="feedback-label" data-svgc-type="edge-label">用户反馈 → 增量修改 / 重生成</text>
+<g data-svgc-id="bottom-bar">
+<rect x="0" y="355" width="1100" height="45" rx="4" fill="url(#bot-grad)"/>
+<text x="550" y="383" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="14" font-weight="bold" fill="white" data-svgc-id="bottom-bar-text">Claude 创意层 → JS Engines 执行层 → validate-svg.js 质量层</text>
+</g>
+</svg>

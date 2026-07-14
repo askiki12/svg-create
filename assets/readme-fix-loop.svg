@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 420" width="100%" height="100%">
+<defs><filter id="shadow"><feDropShadow dx="1" dy="2" stdDeviation="3" flood-color="#00000020"/></filter><marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0,1 L9,5 L0,9 Z" fill="#64748B"/></marker><marker id="arr-green" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0,1 L9,5 L0,9 Z" fill="#10B981"/></marker><marker id="arr-red" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0,1 L9,5 L0,9 Z" fill="#EF4444"/></marker></defs>
+<rect width="900" height="420" fill="#FCFCFC"/>
+<text x="450" y="24" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="20" font-weight="bold" fill="#1E293B">Review → Fix → Re-validate Loop</text>
+<g data-svgc-id="node-0" filter="url(#shadow)">
+<rect x="35" y="70" width="170" height="160" rx="8" fill="white" stroke="#E2E8F0" stroke-width="1"/>
+<rect x="35" y="70" width="170" height="36" rx="8" fill="#2563EB"/>
+<rect x="35" y="96" width="170" height="10" fill="#2563EB"/>
+<text x="120" y="94" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="13" font-weight="bold" fill="white">Renderer</text>
+<text x="120" y="130" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="13" fill="#1E293B">Renderer</text>
+<text x="120" y="154" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="13" fill="#1E293B">输出 SVG</text>
+</g>
+<line x1="210" y1="150" x2="250" y2="150" stroke="#94A3B8" stroke-width="2" marker-end="url(#arr)"/>
+<g data-svgc-id="node-1" filter="url(#shadow)">
+<rect x="255" y="70" width="170" height="160" rx="8" fill="white" stroke="#E2E8F0" stroke-width="1"/>
+<rect x="255" y="70" width="170" height="36" rx="8" fill="#2563EB"/>
+<rect x="255" y="96" width="170" height="10" fill="#2563EB"/>
+<text x="340" y="94" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="13" font-weight="bold" fill="white">Reviewer</text>
+<text x="340" y="130" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="13" fill="#1E293B">validate-svg.js</text>
+<text x="340" y="154" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="13" fill="#1E293B">10 项程序化检查</text>
+</g>
+<line x1="430" y1="150" x2="470" y2="150" stroke="#94A3B8" stroke-width="2" marker-end="url(#arr)"/>
+<g data-svgc-id="node-2" filter="url(#shadow)">
+<rect x="475" y="70" width="170" height="160" rx="8" fill="white" stroke="#E2E8F0" stroke-width="1"/>
+<rect x="475" y="70" width="170" height="36" rx="8" fill="#F59E0B"/>
+<rect x="475" y="96" width="170" height="10" fill="#F59E0B"/>
+<text x="560" y="94" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="13" font-weight="bold" fill="white">Fix Agent</text>
+<text x="560" y="130" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="13" fill="#1E293B">定位问题元素</text>
+<text x="560" y="154" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="13" fill="#1E293B">精准修复 + 日志</text>
+</g>
+<line x1="650" y1="150" x2="690" y2="150" stroke="#94A3B8" stroke-width="2" marker-end="url(#arr)"/>
+<g data-svgc-id="node-3" filter="url(#shadow)">
+<rect x="695" y="70" width="170" height="160" rx="8" fill="white" stroke="#E2E8F0" stroke-width="1"/>
+<rect x="695" y="70" width="170" height="36" rx="8" fill="#7C3AED"/>
+<rect x="695" y="96" width="170" height="10" fill="#7C3AED"/>
+<text x="780" y="94" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="13" font-weight="bold" fill="white">Re-validate</text>
+<text x="780" y="130" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="13" fill="#1E293B">降级检测</text>
+<text x="780" y="154" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="13" fill="#1E293B">R2 vs R1 比较</text>
+</g>
+<line x1="340" y1="70" x2="340" y2="48" stroke="#10B981" stroke-width="2" marker-end="url(#arr-green)"/>
+<rect x="310" y="28" width="60" height="22" rx="11" fill="#D1FAE5"/>
+<text x="340" y="43" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="12" font-weight="bold" fill="#166534">PASS ✅</text>
+<line x1="425" y1="150" x2="470" y2="150" stroke="#EF4444" stroke-width="2" stroke-dasharray="4 3" marker-end="url(#arr-red)"/>
+<text x="447" y="142" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="11" fill="#EF4444">FAIL ❌</text>
+<path d="M 780 230 L 780 270 L 120 270 L 120 230" fill="none" stroke="#7C3AED" stroke-width="1.5" stroke-dasharray="5 3" marker-end="url(#arr)"/>
+<text x="450" y="264" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="11" fill="#7C3AED">继续修 ↻ (max 3 rounds)</text>
+<rect x="180" y="295" width="170" height="44" rx="6" fill="#D1FAE5" stroke="#166534" stroke-width="1" opacity="0.6"/>
+<text x="265" y="313" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="12" font-weight="bold" fill="#166534">PASS</text>
+<text x="265" y="329" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="10" fill="#166534">0 CRITICAL + 0 HIGH</text>
+<rect x="360" y="295" width="170" height="44" rx="6" fill="#FEF3C7" stroke="#92400E" stroke-width="1" opacity="0.6"/>
+<text x="445" y="313" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="12" font-weight="bold" fill="#92400E">WARNED</text>
+<text x="445" y="329" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="10" fill="#92400E">3轮后有余留</text>
+<rect x="540" y="295" width="170" height="44" rx="6" fill="#FEE2E2" stroke="#991B1B" stroke-width="1" opacity="0.6"/>
+<text x="625" y="313" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="12" font-weight="bold" fill="#991B1B">REJECTED</text>
+<text x="625" y="329" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="10" fill="#991B1B">CRITICAL持续</text>
+</svg>

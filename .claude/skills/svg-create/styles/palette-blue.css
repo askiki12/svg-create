@@ -1,0 +1,24 @@
+/* Business Blue Palette — Default PPT Theme */
+:root {
+  --color-primary: #2563EB;
+  --color-secondary: #7C3AED;
+  --color-accent: #059669;
+  --color-bg: #F8FAFC;
+  --color-text: #1E293B;
+  --color-text-secondary: #64748B;
+  --color-grid: #E2E8F0;
+  --color-success: #10B981;
+  --color-warning: #F59E0B;
+  --color-danger: #EF4444;
+  --color-info: #06B6D4;
+}
+
+/* Chart categorical palette */
+.chart-c1 { fill: #2563EB; }
+.chart-c2 { fill: #F59E0B; }
+.chart-c3 { fill: #10B981; }
+.chart-c4 { fill: #EF4444; }
+.chart-c5 { fill: #8B5CF6; }
+.chart-c6 { fill: #F97316; }
+.chart-c7 { fill: #06B6D4; }
+.chart-c8 { fill: #EC4899; }

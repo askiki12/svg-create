@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="100%" height="100%">
+<defs><filter id="shadow"><feDropShadow dx="1" dy="2" stdDeviation="3" flood-color="#00000020"/></filter></defs>
+<rect width="1280" height="720" fill="#F8FAFC" data-svgc-id="bg" data-svgc-type="text-decoration"/>
+<text x="640" y="42" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="26" font-weight="bold" fill="#1E293B" data-svgc-id="title">我国AI产业：发展东风 vs 卡脖子挑战</text>
+<line x1="520" y1="56" x2="760" y2="56" stroke="#2563EB" stroke-width="3" stroke-linecap="round"/>
+<rect x="60" y="72" width="560" height="560" rx="12" fill="#ECFDF5" stroke="#059669" stroke-width="2"/>
+<rect x="60" y="72" width="560" height="46" rx="12" fill="#059669"/>
+<rect x="60" y="108" width="560" height="10" fill="#059669"/>
+<text x="340" y="101" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="20" font-weight="bold" fill="white">🟢 发展东风 (机遇)</text>
+<rect x="80" y="140" width="520" height="95" rx="8" fill="white" stroke="#A7F3D0" stroke-width="1"/>
+<text x="96" y="168" font-family="Arial,Helvetica,sans-serif" font-size="15" font-weight="bold" fill="#065F46">政策红利</text>
+<text x="96" y="192" font-family="Arial,Helvetica,sans-serif" font-size="12" fill="#475569">新型举国体制 · &quot;人工智能+&quot;行动 · &quot;东数西算&quot;工程</text>
+<text x="96" y="212" font-family="Arial,Helvetica,sans-serif" font-size="11" fill="#64748B">→ 驱动AI产业持续发展</text>
+<rect x="80" y="255" width="520" height="95" rx="8" fill="white" stroke="#A7F3D0" stroke-width="1"/>
+<text x="96" y="283" font-family="Arial,Helvetica,sans-serif" font-size="15" font-weight="bold" fill="#065F46">规模优势</text>
+<text x="96" y="307" font-family="Arial,Helvetica,sans-serif" font-size="12" fill="#475569">14亿人口超大规模市场 · 海量应用场景 · 行业数据沉淀</text>
+<text x="96" y="327" font-family="Arial,Helvetica,sans-serif" font-size="11" fill="#64748B">→ 驱动AI产业持续发展</text>
+<rect x="80" y="370" width="520" height="95" rx="8" fill="white" stroke="#A7F3D0" stroke-width="1"/>
+<text x="96" y="398" font-family="Arial,Helvetica,sans-serif" font-size="15" font-weight="bold" fill="#065F46">新质生产力</text>
+<text x="96" y="422" font-family="Arial,Helvetica,sans-serif" font-size="12" fill="#475569">AI+实体经济深度融合 · 需求导向发展模式 · 中国特色创新</text>
+<text x="96" y="442" font-family="Arial,Helvetica,sans-serif" font-size="11" fill="#64748B">→ 驱动AI产业持续发展</text>
+<rect x="80" y="485" width="520" height="95" rx="8" fill="white" stroke="#A7F3D0" stroke-width="1"/>
+<text x="96" y="513" font-family="Arial,Helvetica,sans-serif" font-size="15" font-weight="bold" fill="#065F46">开源突破</text>
+<text x="96" y="537" font-family="Arial,Helvetica,sans-serif" font-size="12" fill="#475569">DeepSeek-V4打通国产技术闭环 · 部分领域性能超越国际闭源模型</text>
+<text x="96" y="557" font-family="Arial,Helvetica,sans-serif" font-size="11" fill="#64748B">→ 驱动AI产业持续发展</text>
+<rect x="660" y="72" width="560" height="560" rx="12" fill="#FEF2F2" stroke="#EF4444" stroke-width="2"/>
+<rect x="660" y="72" width="560" height="46" rx="12" fill="#EF4444"/>
+<rect x="660" y="108" width="560" height="10" fill="#EF4444"/>
+<text x="940" y="101" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="20" font-weight="bold" fill="white">🔴 卡脖子挑战 (瓶颈)</text>
+<rect x="680" y="140" width="520" height="95" rx="8" fill="white" stroke="#FECACA" stroke-width="1"/>
+<text x="696" y="168" font-family="Arial,Helvetica,sans-serif" font-size="15" font-weight="bold" fill="#991B1B">芯片瓶颈</text>
+<text x="696" y="192" font-family="Arial,Helvetica,sans-serif" font-size="12" fill="#475569">英伟达占全球AI算力90%+ · 高端芯片进口受限 · 国产替代需长期攻坚</text>
+<text x="696" y="212" font-family="Arial,Helvetica,sans-serif" font-size="11" fill="#64748B">→ 需集中力量攻坚突破</text>
+<rect x="680" y="255" width="520" height="95" rx="8" fill="white" stroke="#FECACA" stroke-width="1"/>
+<text x="696" y="283" font-family="Arial,Helvetica,sans-serif" font-size="15" font-weight="bold" fill="#991B1B">绿色算力</text>
+<text x="696" y="307" font-family="Arial,Helvetica,sans-serif" font-size="12" fill="#475569">大模型能耗剧增 · 双碳战略压力 · 需源网荷储一体化发展</text>
+<text x="696" y="327" font-family="Arial,Helvetica,sans-serif" font-size="11" fill="#64748B">→ 需集中力量攻坚突破</text>
+<rect x="680" y="370" width="520" height="95" rx="8" fill="white" stroke="#FECACA" stroke-width="1"/>
+<text x="696" y="398" font-family="Arial,Helvetica,sans-serif" font-size="15" font-weight="bold" fill="#991B1B">人才短缺</text>
+<text x="696" y="422" font-family="Arial,Helvetica,sans-serif" font-size="12" fill="#475569">领军人才不足 · 跨学科复合人才匮乏 · 教育体系需改革</text>
+<text x="696" y="442" font-family="Arial,Helvetica,sans-serif" font-size="11" fill="#64748B">→ 需集中力量攻坚突破</text>
+<rect x="680" y="485" width="520" height="95" rx="8" fill="white" stroke="#FECACA" stroke-width="1"/>
+<text x="696" y="513" font-family="Arial,Helvetica,sans-serif" font-size="15" font-weight="bold" fill="#991B1B">AI治理</text>
+<text x="696" y="537" font-family="Arial,Helvetica,sans-serif" font-size="12" fill="#475569">深度伪造 · 数据隐私 · 算法歧视 · 需多层次治理体系</text>
+<text x="696" y="557" font-family="Arial,Helvetica,sans-serif" font-size="11" fill="#64748B">→ 需集中力量攻坚突破</text>
+<text x="1250" y="704" text-anchor="end" font-family="Arial,Helvetica,sans-serif" font-size="10" fill="#94A3B8" data-svgc-id="footer" data-svgc-type="text-decoration">svg-create</text>
+</svg>

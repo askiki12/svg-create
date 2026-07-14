@@ -1,0 +1,8 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python3 -c ' *)",
+      "Bash(grep -n \"CHECK 9\\\\|CHECK 10\\\\|return {\\\\|svgPath,\" /home/kiki/workspace/svg-create/.claude/skills/svg-create/scripts/validate-svg.js)"
+    ]
+  }
+}

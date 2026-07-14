@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="100%" height="100%">
+<defs><filter id="sh"><feDropShadow dx="1" dy="2" stdDeviation="3" flood-color="#00000020"/></filter></defs>
+<rect width="1280" height="720" fill="#F8FAFC" data-svgc-id="bg" data-svgc-type="text-decoration"/>
+<text x="640" y="40" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="24" font-weight="bold" fill="#1E293B" data-svgc-id="title">微型内存文件系统 — 系统架构总览</text>
+<line x1="490" y1="54" x2="790" y2="54" stroke="#2563EB" stroke-width="3" stroke-linecap="round"/>
+<rect x="340" y="96" width="80" height="28" rx="6" fill="#2563EB"/>
+<text x="380" y="115" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="12" font-weight="bold" fill="white">系统类型</text>
+<text x="430" y="115" font-family="Arial,Helvetica,sans-serif" font-size="13" fill="#475569">Micro In-Memory File System (CLI)</text>
+<rect x="340" y="156" width="80" height="28" rx="6" fill="#2563EB"/>
+<text x="380" y="175" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="12" font-weight="bold" fill="white">支持命令</text>
+<text x="430" y="175" font-family="Arial,Helvetica,sans-serif" font-size="13" fill="#475569">MKDIR / TOUCH / LS / INFO / FIND / RM / LINK (7条)</text>
+<rect x="340" y="216" width="80" height="28" rx="6" fill="#2563EB"/>
+<text x="380" y="235" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="12" font-weight="bold" fill="white">数据模型</text>
+<text x="430" y="235" font-family="Arial,Helvetica,sans-serif" font-size="13" fill="#475569">File (Leaf) / Dir (Composite) / Link (Proxy)</text>
+<rect x="340" y="276" width="80" height="28" rx="6" fill="#2563EB"/>
+<text x="380" y="295" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="12" font-weight="bold" fill="white">核心设计</text>
+<text x="430" y="295" font-family="Arial,Helvetica,sans-serif" font-size="13" fill="#475569">组合模式 + 代理模式 + 对象引用链接</text>
+<rect x="80" y="360" width="1120" height="250" rx="10" fill="white" stroke="#E2E8F0" stroke-width="1" filter="url(#sh)"/>
+<text x="640" y="392" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="16" font-weight="bold" fill="#1E293B">支持的命令 (7条)</text>
+<rect x="100" y="413" width="1080" height="24" rx="4" fill="#F1F5F9"/>
+<text x="130" y="430" font-family="Arial,Helvetica,sans-serif" font-size="12" font-weight="bold" fill="#2563EB">MKDIR</text>
+<text x="240" y="430" font-family="monospace" font-size="11" fill="#475569">MKDIR &amp;lt;path&amp;gt;</text>
+<text x="470" y="430" font-family="Arial,Helvetica,sans-serif" font-size="12" fill="#64748B">创建目录</text>
+<rect x="100" y="439" width="1080" height="24" rx="4" fill="white"/>
+<text x="130" y="456" font-family="Arial,Helvetica,sans-serif" font-size="12" font-weight="bold" fill="#2563EB">TOUCH</text>
+<text x="240" y="456" font-family="monospace" font-size="11" fill="#475569">TOUCH &amp;lt;path&amp;gt; &amp;lt;size&amp;gt;</text>
+<text x="470" y="456" font-family="Arial,Helvetica,sans-serif" font-size="12" fill="#64748B">创建或更新文件</text>
+<rect x="100" y="465" width="1080" height="24" rx="4" fill="#F1F5F9"/>
+<text x="130" y="482" font-family="Arial,Helvetica,sans-serif" font-size="12" font-weight="bold" fill="#2563EB">LS</text>
+<text x="240" y="482" font-family="monospace" font-size="11" fill="#475569">LS &amp;lt;path&amp;gt;</text>
+<text x="470" y="482" font-family="Arial,Helvetica,sans-serif" font-size="12" fill="#64748B">列出直接子节点</text>
+<rect x="100" y="491" width="1080" height="24" rx="4" fill="white"/>
+<text x="130" y="508" font-family="Arial,Helvetica,sans-serif" font-size="12" font-weight="bold" fill="#2563EB">INFO</text>
+<text x="240" y="508" font-family="monospace" font-size="11" fill="#475569">INFO &amp;lt;path&amp;gt;</text>
+<text x="470" y="508" font-family="Arial,Helvetica,sans-serif" font-size="12" fill="#64748B">查询节点大小</text>
+<rect x="100" y="517" width="1080" height="24" rx="4" fill="#F1F5F9"/>
+<text x="130" y="534" font-family="Arial,Helvetica,sans-serif" font-size="12" font-weight="bold" fill="#2563EB">FIND</text>
+<text x="240" y="534" font-family="monospace" font-size="11" fill="#475569">FIND &amp;lt;path&amp;gt; &amp;lt;name&amp;gt;</text>
+<text x="470" y="534" font-family="Arial,Helvetica,sans-serif" font-size="12" fill="#64748B">递归搜索同名节点</text>
+<rect x="100" y="543" width="1080" height="24" rx="4" fill="white"/>
+<text x="130" y="560" font-family="Arial,Helvetica,sans-serif" font-size="12" font-weight="bold" fill="#2563EB">RM</text>
+<text x="240" y="560" font-family="monospace" font-size="11" fill="#475569">RM &amp;lt;path&amp;gt;</text>
+<text x="470" y="560" font-family="Arial,Helvetica,sans-serif" font-size="12" fill="#64748B">删除文件/空目录/链接</text>
+<rect x="100" y="569" width="1080" height="24" rx="4" fill="#F1F5F9"/>
+<text x="130" y="586" font-family="Arial,Helvetica,sans-serif" font-size="12" font-weight="bold" fill="#2563EB">LINK</text>
+<text x="240" y="586" font-family="monospace" font-size="11" fill="#475569">LINK &amp;lt;src&amp;gt; &amp;lt;dst&amp;gt;</text>
+<text x="470" y="586" font-family="Arial,Helvetica,sans-serif" font-size="12" fill="#64748B">创建符号链接</text>
+<text x="1250" y="704" text-anchor="end" font-family="Arial,Helvetica,sans-serif" font-size="10" fill="#94A3B8">svg-create</text>
+</svg>

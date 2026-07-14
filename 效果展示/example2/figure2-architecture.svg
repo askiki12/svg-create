@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="100%" height="100%">
+<defs><filter id="sh"><feDropShadow dx="1" dy="2" stdDeviation="3" flood-color="#00000020"/></filter></defs>
+<marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0,1 L9,5 L0,9 Z" fill="#94A3B8"/></marker>
+<rect width="1280" height="720" fill="#F8FAFC" data-svgc-id="bg" data-svgc-type="text-decoration"/>
+<text x="640" y="40" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="24" font-weight="bold" fill="#1E293B" data-svgc-id="title">核心架构 — 模块划分与命令处理流程</text>
+<line x1="490" y1="54" x2="790" y2="54" stroke="#2563EB" stroke-width="3" stroke-linecap="round"/>
+<rect x="60" y="90" width="360" height="220" rx="10" fill="white" stroke="#2563EB" stroke-width="2" filter="url(#sh)"/>
+<rect x="60" y="90" width="360" height="46" rx="10" fill="#2563EB"/>
+<rect x="60" y="126" width="360" height="10" fill="#2563EB"/>
+<text x="240" y="118" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="13" font-weight="bold" fill="white">Main.java</text>
+<text x="240" y="134" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="13" font-weight="bold" fill="white">命令分发器</text>
+<circle cx="80" cy="162" r="3" fill="#2563EB" opacity="0.7"/>
+<text x="92" y="167" font-family="Arial,Helvetica,sans-serif" font-size="12" fill="#334155">stdin 逐行读取</text>
+<circle cx="80" cy="190" r="3" fill="#2563EB" opacity="0.7"/>
+<text x="92" y="195" font-family="Arial,Helvetica,sans-serif" font-size="12" fill="#334155">switch-case 分派</text>
+<circle cx="80" cy="218" r="3" fill="#2563EB" opacity="0.7"/>
+<text x="92" y="223" font-family="Arial,Helvetica,sans-serif" font-size="12" fill="#334155">stdout 输出结果</text>
+<circle cx="80" cy="246" r="3" fill="#2563EB" opacity="0.7"/>
+<text x="92" y="251" font-family="Arial,Helvetica,sans-serif" font-size="12" fill="#334155">→ 读取→解析→路由→执行</text>
+<line x1="424" y1="200" x2="456" y2="200" stroke="#94A3B8" stroke-width="2" marker-end="url(#arr)"/>
+<rect x="460" y="90" width="360" height="220" rx="10" fill="white" stroke="#F59E0B" stroke-width="2" filter="url(#sh)"/>
+<rect x="460" y="90" width="360" height="46" rx="10" fill="#F59E0B"/>
+<rect x="460" y="126" width="360" height="10" fill="#F59E0B"/>
+<text x="640" y="118" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="13" font-weight="bold" fill="white">CliParsers.java</text>
+<text x="640" y="134" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="13" font-weight="bold" fill="white">命令解析器</text>
+<circle cx="480" cy="162" r="3" fill="#F59E0B" opacity="0.7"/>
+<text x="492" y="167" font-family="Arial,Helvetica,sans-serif" font-size="12" fill="#334155">字符串分词</text>
+<circle cx="480" cy="190" r="3" fill="#F59E0B" opacity="0.7"/>
+<text x="492" y="195" font-family="Arial,Helvetica,sans-serif" font-size="12" fill="#334155">参数校验</text>
+<circle cx="480" cy="218" r="3" fill="#F59E0B" opacity="0.7"/>
+<text x="492" y="223" font-family="Arial,Helvetica,sans-serif" font-size="12" fill="#334155">类型枚举</text>
+<circle cx="480" cy="246" r="3" fill="#F59E0B" opacity="0.7"/>
+<text x="492" y="251" font-family="Arial,Helvetica,sans-serif" font-size="12" fill="#334155">→ 返回 Command 对象</text>
+<line x1="824" y1="200" x2="856" y2="200" stroke="#94A3B8" stroke-width="2" marker-end="url(#arr)"/>
+<rect x="860" y="90" width="360" height="220" rx="10" fill="white" stroke="#059669" stroke-width="2" filter="url(#sh)"/>
+<rect x="860" y="90" width="360" height="46" rx="10" fill="#059669"/>
+<rect x="860" y="126" width="360" height="10" fill="#059669"/>
+<text x="1040" y="118" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="13" font-weight="bold" fill="white">MemFs.java</text>
+<text x="1040" y="134" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="13" font-weight="bold" fill="white">文件系统核心</text>
+<circle cx="880" cy="162" r="3" fill="#059669" opacity="0.7"/>
+<text x="892" y="167" font-family="Arial,Helvetica,sans-serif" font-size="12" fill="#334155">数据模型 (Node体系)</text>
+<circle cx="880" cy="190" r="3" fill="#059669" opacity="0.7"/>
+<text x="892" y="195" font-family="Arial,Helvetica,sans-serif" font-size="12" fill="#334155">路径规范化</text>
+<circle cx="880" cy="218" r="3" fill="#059669" opacity="0.7"/>
+<text x="892" y="223" font-family="Arial,Helvetica,sans-serif" font-size="12" fill="#334155">7条命令实现</text>
+<circle cx="880" cy="246" r="3" fill="#059669" opacity="0.7"/>
+<text x="892" y="251" font-family="Arial,Helvetica,sans-serif" font-size="12" fill="#334155">→ 外观模式封装</text>
+<rect x="120" y="370" width="1040" height="56" rx="8" fill="white" stroke="#1E40AF" stroke-width="1.5"/>
+<rect x="120" y="370" width="4" height="56" rx="2" fill="#1E40AF"/>
+<text x="148" y="392" font-family="Arial,Helvetica,sans-serif" font-size="14" font-weight="bold" fill="#1E40AF">第3层: 操作层</text>
+<text x="148" y="412" font-family="Arial,Helvetica,sans-serif" font-size="12" fill="#475569">mkdir / touch / ls / info / find / rm / link</text>
+<line x1="640" y1="426" x2="640" y2="440" stroke="#94A3B8" stroke-width="1.5"/>
+<rect x="120" y="440" width="1040" height="56" rx="8" fill="white" stroke="#E65100" stroke-width="1.5"/>
+<rect x="120" y="440" width="4" height="56" rx="2" fill="#E65100"/>
+<text x="148" y="462" font-family="Arial,Helvetica,sans-serif" font-size="14" font-weight="bold" fill="#E65100">第2层: 导航层</text>
+<text x="148" y="482" font-family="Arial,Helvetica,sans-serif" font-size="12" fill="#475569">normalize / navigate / navigateToParent / resolve (链接解析+循环检测)</text>
+<line x1="640" y1="496" x2="640" y2="510" stroke="#94A3B8" stroke-width="1.5"/>
+<rect x="120" y="510" width="1040" height="56" rx="8" fill="white" stroke="#1B5E20" stroke-width="1.5"/>
+<rect x="120" y="510" width="4" height="56" rx="2" fill="#1B5E20"/>
+<text x="148" y="532" font-family="Arial,Helvetica,sans-serif" font-size="14" font-weight="bold" fill="#1B5E20">第1层: 数据层</text>
+<text x="148" y="552" font-family="Arial,Helvetica,sans-serif" font-size="12" fill="#475569">Node / FileNode (Leaf) / DirNode (Composite) / LinkNode (Proxy)</text>
+<text x="1250" y="704" text-anchor="end" font-family="Arial,Helvetica,sans-serif" font-size="10" fill="#94A3B8">svg-create</text>
+</svg>

@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="100%" height="100%">
+<defs><filter id="sh"><feDropShadow dx="1" dy="2" stdDeviation="3" flood-color="#00000020"/></filter></defs>
+<rect width="1280" height="720" fill="#F8FAFC" data-svgc-id="bg" data-svgc-type="text-decoration"/>
+<text x="640" y="40" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="24" font-weight="bold" fill="#1E293B" data-svgc-id="title">数据模型 — Node 类层次与设计模式</text>
+<line x1="490" y1="54" x2="790" y2="54" stroke="#2563EB" stroke-width="3" stroke-linecap="round"/>
+<rect x="540" y="100" width="200" height="50" rx="25" fill="#1E293B"/>
+<text x="640" y="132" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="15" font-weight="bold" fill="white">Node (abstract)</text>
+<text x="640" y="168" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="11" fill="#94A3B8">+name / +isDir() / +getSize()</text>
+<line x1="640" y1="150" x2="310" y2="200" stroke="#CBD5E1" stroke-width="1.5"/>
+<rect x="160" y="200" width="300" height="200" rx="8" fill="white" stroke="#2E7D32" stroke-width="2" filter="url(#sh)"/>
+<rect x="160" y="200" width="300" height="38" rx="8" fill="#2E7D32"/>
+<rect x="160" y="228" width="300" height="10" fill="#2E7D32"/>
+<text x="310" y="226" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="14" font-weight="bold" fill="white">FileNode</text>
+<circle cx="176" cy="264" r="3" fill="#2E7D32" opacity="0.7"/>
+<text x="188" y="269" font-family="Arial,Helvetica,sans-serif" font-size="12" fill="#334155">Leaf (叶子节点)</text>
+<circle cx="176" cy="290" r="3" fill="#2E7D32" opacity="0.7"/>
+<text x="188" y="295" font-family="Arial,Helvetica,sans-serif" font-size="12" fill="#334155">+long size</text>
+<circle cx="176" cy="316" r="3" fill="#2E7D32" opacity="0.7"/>
+<text x="188" y="321" font-family="Arial,Helvetica,sans-serif" font-size="12" fill="#334155">isDir() → false</text>
+<circle cx="176" cy="342" r="3" fill="#2E7D32" opacity="0.7"/>
+<text x="188" y="347" font-family="Arial,Helvetica,sans-serif" font-size="12" fill="#334155">getSize() → 自身size</text>
+<line x1="640" y1="150" x2="650" y2="200" stroke="#CBD5E1" stroke-width="1.5"/>
+<rect x="500" y="200" width="300" height="200" rx="8" fill="white" stroke="#F9A825" stroke-width="2" filter="url(#sh)"/>
+<rect x="500" y="200" width="300" height="38" rx="8" fill="#F9A825"/>
+<rect x="500" y="228" width="300" height="10" fill="#F9A825"/>
+<text x="650" y="226" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="14" font-weight="bold" fill="white">DirNode</text>
+<circle cx="516" cy="264" r="3" fill="#F9A825" opacity="0.7"/>
+<text x="528" y="269" font-family="Arial,Helvetica,sans-serif" font-size="12" fill="#334155">Composite (组合节点)</text>
+<circle cx="516" cy="290" r="3" fill="#F9A825" opacity="0.7"/>
+<text x="528" y="295" font-family="Arial,Helvetica,sans-serif" font-size="12" fill="#334155">+TreeMap children</text>
+<circle cx="516" cy="316" r="3" fill="#F9A825" opacity="0.7"/>
+<text x="528" y="321" font-family="Arial,Helvetica,sans-serif" font-size="12" fill="#334155">isDir() → true</text>
+<circle cx="516" cy="342" r="3" fill="#F9A825" opacity="0.7"/>
+<text x="528" y="347" font-family="Arial,Helvetica,sans-serif" font-size="12" fill="#334155">getSize() → 递归+去重</text>
+<line x1="640" y1="150" x2="990" y2="200" stroke="#CBD5E1" stroke-width="1.5"/>
+<rect x="840" y="200" width="300" height="200" rx="8" fill="white" stroke="#1565C0" stroke-width="2" filter="url(#sh)"/>
+<rect x="840" y="200" width="300" height="38" rx="8" fill="#1565C0"/>
+<rect x="840" y="228" width="300" height="10" fill="#1565C0"/>
+<text x="990" y="226" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="14" font-weight="bold" fill="white">LinkNode</text>
+<circle cx="856" cy="264" r="3" fill="#1565C0" opacity="0.7"/>
+<text x="868" y="269" font-family="Arial,Helvetica,sans-serif" font-size="12" fill="#334155">Proxy (代理节点)</text>
+<circle cx="856" cy="290" r="3" fill="#1565C0" opacity="0.7"/>
+<text x="868" y="295" font-family="Arial,Helvetica,sans-serif" font-size="12" fill="#334155">+Node target</text>
+<circle cx="856" cy="316" r="3" fill="#1565C0" opacity="0.7"/>
+<text x="868" y="321" font-family="Arial,Helvetica,sans-serif" font-size="12" fill="#334155">isDir() → target.isDir()</text>
+<circle cx="856" cy="342" r="3" fill="#1565C0" opacity="0.7"/>
+<text x="868" y="347" font-family="Arial,Helvetica,sans-serif" font-size="12" fill="#334155">getSize() → target.getSize()</text>
+<rect x="160" y="440" width="280" height="50" rx="8" fill="#2E7D32" opacity="0.1" stroke="#2E7D32" stroke-width="1"/>
+<text x="300" y="462" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="13" font-weight="bold" fill="#2E7D32">组合模式 (Composite)</text>
+<text x="300" y="480" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="11" fill="#475569">Component / Leaf / Composite</text>
+<rect x="500" y="440" width="280" height="50" rx="8" fill="#1565C0" opacity="0.1" stroke="#1565C0" stroke-width="1"/>
+<text x="640" y="462" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="13" font-weight="bold" fill="#1565C0">代理模式 (Proxy)</text>
+<text x="640" y="480" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="11" fill="#475569">Proxy: 透明转发</text>
+<rect x="840" y="440" width="280" height="50" rx="8" fill="#F9A825" opacity="0.1" stroke="#F9A825" stroke-width="1"/>
+<text x="980" y="462" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="13" font-weight="bold" fill="#F9A825">开闭原则 (OCP)</text>
+<text x="980" y="480" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="11" fill="#475569">新增子类无需修改现有代码</text>
+<rect x="80" y="520" width="1120" height="60" rx="10" fill="#EFF6FF" stroke="#2563EB" stroke-width="1"/>
+<text x="640" y="548" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="14" font-weight="bold" fill="#1E40AF">设计精髓</text>
+<text x="640" y="570" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="13" fill="#3B82F6">组合模式统一文件/目录处理 · 代理模式透明引入符号链接 · 对象引用建立链接共享 · visited集合安全遍历有向图</text>
+<text x="1250" y="704" text-anchor="end" font-family="Arial,Helvetica,sans-serif" font-size="10" fill="#94A3B8">svg-create</text>
+</svg>
